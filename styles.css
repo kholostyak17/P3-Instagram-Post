@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7em;
+}
+img {
+  width: 100%;
+}
+i {
+  font-size: 25px;
+}
+#dots,
+#save {
+  float: right;
+  margin: 5px;
+}
+#profilepicture,
+#like,
+#share,
+#comment {
+  float: left;
+  margin: 5px;
+}
+#titulo1 {
+  display: inline-block;
+}
+.feed {
+  margin: 50px auto;
+  background-color: white;
+  width: 350px;
+}
+.title,.buttons {
+  display: block;
+  padding: 10px 10px;
+}
+.description {
+  display: block;
+  padding: 20px 10px;
+}
