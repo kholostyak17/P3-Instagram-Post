@@ -29,11 +29,16 @@ i {
   background-color: white;
   width: 350px;
 }
-.title,.buttons {
+.title,
+.buttons {
   display: block;
   padding: 10px 10px;
 }
 .description {
   display: block;
   padding: 20px 10px;
+  margin: 10px;
+}
+p {
+  margin: 0;
 }
