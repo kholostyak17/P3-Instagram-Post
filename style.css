@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+.cajaPrincipal {
+  width: 50rem;
+  margin: 0 auto;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  margin-top: 100px;
+}
+
+img {
+  width: 100%;
+}
+
+header,
+section,
+article {
+  padding: 10px;
+  display: flex;
+}
+
+article {
+  display: block;
+}
+
+p {
+  display: inline-block;
+}
+
+i {
+  font-size: 35px;
+  margin: 1rem;
+}
+
+.usuario,
+.rigoberto {
+  display: block;
+  margin: 0px;
+}
+
+.espacio1 {
+  width: 90rem;
+  margin-top: 20px;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.espacio2 {
+  width: 60rem;
+}
