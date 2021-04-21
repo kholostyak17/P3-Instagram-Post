@@ -3,51 +3,31 @@ body {
 }
 .cajaPrincipal {
   width: 50rem;
-  margin: 0 auto;
+  margin: 5em auto;
   background-color: white;
   font-family: "Roboto", sans-serif;
-  margin-top: 100px;
 }
-
 img {
   width: 100%;
 }
-
-header,
-section,
-article {
-  padding: 10px;
-  display: flex;
-}
-
-article {
-  display: block;
-}
-
-p {
-  display: inline-block;
-}
-
 i {
   font-size: 35px;
-  margin: 1rem;
+  margin:0.75rem;
 }
-
-.usuario,
-.rigoberto {
-  display: block;
-  margin: 0px;
+.fa-bookmark, .fa-ellipsis-v{
+    margin-left:auto;
 }
-
-.espacio1 {
-  width: 90rem;
-  margin-top: 20px;
+header, .buttons{
+  display: flex;
 }
-
-.negrita {
+header, article, .text, .user{
+    padding: 1rem;
+}
+.user p{
+    margin: 0
+}
+.bold {
   font-weight: bold;
 }
 
-.espacio2 {
-  width: 60rem;
-}
+
